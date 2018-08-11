@@ -5,8 +5,8 @@
 	background-image: url(../images/huose.jpg);
 	background-size: 100%;
 	align-items: center;
-	width: 100vw;
-	height: 100vh;
+	width: 100%;
+	height: 100%;
 	background-position: 0px -220px;	
 }
 .menu-left{
@@ -52,6 +52,7 @@
 	padding-left: 20px;
 	font-family: 'Exo 2', light;
 	width: 300px;
+	border-radius: 5px;
 }
 .input-button{
 	background: rgba(117, 29, 65, 0.2);
@@ -62,4 +63,17 @@
 	color: #d4d2d3;
 	font-family: 'Exo 2', light;
 	cursor: pointer;
+}
+.check{
+	display: block;
+	margin: 0 5px;
+}
+.check-label{
+	color: lightgrey;
+	font-family: 'Exo 2', light;
+	font-size: 12px;
+}
+.check-with-label{
+	display: flex;
+	margin-top: 5px;
 }
