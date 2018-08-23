@@ -13,8 +13,12 @@ body{
 .menu-left{
 	background: rgba(0, 0, 0, 0.5);
 	width: 10%;
+	max-width: 100px;
 	height: 100%;	
 	min-width: 110px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .blackground{
 	background: rgba(0, 0, 0, 0.5);
@@ -28,6 +32,7 @@ body{
     align-items: center;
 	width: 600px;
     justify-content: center;
+	padding-left: 10%;
 }
 .text-input{
 	display: flex;
@@ -78,4 +83,96 @@ body{
 .check-with-label{
 	display: flex;
 	margin-top: 5px;
+}
+.top-menu-block{
+	height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom-menu-block{
+	height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	align-items: center;
+}
+.muted{
+	width: 35px;
+	height: 35px;	
+	background-image: url(../images/mute.png);
+	z-index: 4;
+}
+.ru{
+	width: 35px;
+	height: 35px;
+	border-bottom: 1px solid #717070;
+	border-left: 1px solid #717070;
+	border-radius: 3px;
+}
+a{
+	text-decoration: none;
+	color: #a2a19e;
+	font-family: 'Exo 2', light;
+}
+.en{
+	width: 35px;
+	height: 35px;
+	border-bottom: 1px solid #717070;
+	border-left: 1px solid #717070;
+	border-radius: 3px;
+}
+
+.language{
+	display: flex;
+    flex-direction: column;
+    height: 90px;
+    justify-content: space-between;
+	z-index: 2;
+}
+.language p{
+	margin: 0;
+	padding: 7px 0 0 8px;
+}
+.language a:hover{
+	color:  #d5d3d4;
+}
+.en:hover, .ru:hover{
+	border-bottom: 1px solid #d5d3d4;
+	border-left: 1px solid #d5d3d4;
+}
+.social{
+	display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+	z-index: 3;
+}
+.facebook{
+	width: 35px;
+	height: 35px;	
+	background-image: url(../images/fb-vm.png);
+	background-position-x: -4px;
+	margin-bottom: 15px;
+}
+
+.vimeo{
+	width: 35px;
+    height: 35px;
+    background-image: url(../images/fb-vm.png);
+    background-position-x: -65px;
+    background-repeat-y: no-repeat;
+    border-bottom: 1px solid;
+    padding-bottom: 31px;
+}
+.webey{
+	text-align: center;
+	color: #a2a19e;
+	font-family: 'Exo 2', light;
+	text-transform: uppercase;
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+.big-font{
+	font-size: 20px;
 }
